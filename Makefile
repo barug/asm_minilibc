@@ -5,7 +5,7 @@
 ## Login   <barthe_g@epitech.net>
 ## 
 ## Started on  Wed Mar 23 14:48:38 2016 Barthelemy Gouby
-## Last update Thu Mar 24 12:44:42 2016 Barthelemy Gouby
+## Last update Thu Mar 24 15:03:10 2016 Barthelemy Gouby
 ##
 
 RM = rm -rf
@@ -21,7 +21,8 @@ CFLAGS += -shared -g
 SRCS = 	strlen.s	\
 	strchr.s	\
 	memset.s	\
-	memcpy.s
+	memcpy.s	\
+	strcmp.s
 
 OBJS = $(SRCS:.s=.o)
 
