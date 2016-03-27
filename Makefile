@@ -5,7 +5,7 @@
 ## Login   <barthe_g@epitech.net>
 ## 
 ## Started on  Wed Mar 23 14:48:38 2016 Barthelemy Gouby
-## Last update Sun Mar 27 12:26:08 2016 Barthelemy Gouby
+## Last update Sun Mar 27 13:12:10 2016 Barthelemy Gouby
 ##
 
 RM = rm -rf
@@ -25,7 +25,8 @@ SRCS = 	strlen.s	\
 	strcmp.s	\
 	memmove.s	\
 	strncmp.s	\
-	strcasecmp.s
+	strcasecmp.s	\
+	rindex.s
 
 OBJS = $(SRCS:.s=.o)
 
