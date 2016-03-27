@@ -3,8 +3,6 @@
 	section .text
 
 strlen:
-	push rbp
-	mov rbp, rsp
 	mov rax, -1
 
 loop:
@@ -13,6 +11,4 @@ loop:
 	cmp dl, 0
 	jne loop
 
-	mov rsp, rbp
-	pop rbp
 	ret
